@@ -1,8 +1,7 @@
 package van.tian.wen.circleprogressbutton;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,8 +11,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CircleProgressButton circleProgressButton = (CircleProgressButton) findViewById(R.id.circleProgressButton);
+        CircleProgressButton circleProgressButton1 = (CircleProgressButton) findViewById(R.id.circleProgressButton1);
 
-        circleProgressButton.setText("文字");
+        circleProgressButton.setText("Hello");
+
+        circleProgressButton1.setText("Hello");
+        circleProgressButton1.setDrawArc(false);
 
     }
 }

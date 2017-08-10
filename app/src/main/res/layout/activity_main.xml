@@ -20,4 +20,14 @@
         van:textColor="@android:color/black"
         van:textSize="16sp" />
 
+    <van.tian.wen.circleprogressbutton.CircleProgressButton
+        android:id="@+id/circleProgressButton1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        van:circleColor="@android:color/holo_blue_light"
+        van:progressColor="@android:color/holo_orange_dark"
+        van:progressWidth="5dp"
+        van:textColor="@android:color/black"
+        van:textSize="16sp"
+        android:layout_below="@+id/circleProgressButton"/>
 </RelativeLayout>
